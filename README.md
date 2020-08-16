@@ -1,7 +1,7 @@
 Полноценный кластер OpenShift 3.11(OKD) на ноутбуке.
 
 Параметры Хостов
-
+-----------------------------------------------------------------------------------
 ```lb - 2.5GB RAM, 2CPU |Ansible|HAProxy LB|OKD Playbooks
 master01 - 6GB RAM, 2CPU
 master02 - 4GB RAM, 2CPU
@@ -13,6 +13,7 @@ infra02 - 3GB RAM, 2CPU```
 
 
 Версия Ансибла
+------------------------------------------------------------------------------------
 ```ansible 2.9.10
   config file = /etc/ansible/ansible.cfg
   configured module search path = [u'/root/.ansible/plugins/modules', u'/usr/share/ansible/plugins/modules']
