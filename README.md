@@ -9,7 +9,8 @@ master03 - 4GB RAM, 2CPU
 node01 - 4GB RAM, 2CPU
 node02 - 4GB RAM, 2CPU
 infra01 - 3GB RAM, 2CPU
-infra02 - 3GB RAM, 2CPU```
+infra02 - 3GB RAM, 2CPU
+```
 
 
 Версия Ансибла
@@ -23,6 +24,6 @@ infra02 - 3GB RAM, 2CPU```
 ```
 
 Запуска плейбуков
-  
+------------------------------------------------------------------------------------  
 ``` ansible-playbook /usr/share/ansible/openshift-ansible/playbooks/prerequisites.yml -i /root/ocp-admin/inventory/hosts```
 ``` ansible-playbook /usr/share/ansible/openshift-ansible/playbooks/deploy_cluster.yml -i /root/ocp-admin/inventory/hosts -e openshift_disable_check=memory_availability```
