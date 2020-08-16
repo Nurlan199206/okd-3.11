@@ -1,5 +1,10 @@
 Полноценный кластер OpenShift 3.11(OKD) на ноутбуке.
 
+Железо ноутбука: 
+CPU: Core i7 8gen
+RAM: 32GB
+DISK: 1TB SSD
+
 ОС: CentOS 7.8
 
 Плейбуки OKD: https://github.com/openshift/openshift-ansible/tree/release-3.11
