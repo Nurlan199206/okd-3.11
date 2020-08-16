@@ -1,8 +1,13 @@
 Полноценный кластер OpenShift 3.11(OKD) на ноутбуке.
 
+ОС: CentOS 7.8
+
+Плейбуки OKD: https://github.com/openshift/openshift-ansible/tree/release-3.11
+
 Параметры Хостов
 -----------------------------------------------------------------------------------
-```lb - 2.5GB RAM, 2CPU |Ansible|HAProxy LB|OKD Playbooks
+```
+lb - 2.5GB RAM, 2CPU |Ansible|HAProxy LB|OKD Playbooks
 master01 - 6GB RAM, 2CPU
 master02 - 4GB RAM, 2CPU
 master03 - 4GB RAM, 2CPU
