@@ -27,3 +27,19 @@ infra02 - 3GB RAM, 2CPU
 ------------------------------------------------------------------------------------  
 ``` ansible-playbook /usr/share/ansible/openshift-ansible/playbooks/prerequisites.yml -i /root/ocp-admin/inventory/hosts```
 ``` ansible-playbook /usr/share/ansible/openshift-ansible/playbooks/deploy_cluster.yml -i /root/ocp-admin/inventory/hosts -e openshift_disable_check=memory_availability```
+
+На всех нодах кластера в ```/etc/hosts``` прописываем записи ниже, либо настраиваем локальный DNS сервер.
+
+
+```192.168.0.160 openshift-cluster.nurlan.kz
+192.168.0.160 openshift-internal.nurlan.kz
+192.168.0.160 console.apps.nurlan.kz
+192.168.0.160 console.nurlan.kz
+192.168.0.161 master01.nurlan.kz
+192.168.0.162 master02.nurlan.kz
+192.168.0.163 master03.nurlan.kz 
+192.168.0.160 lb.nurlan.kz
+192.168.0.164 node01.nurlan.kz
+192.168.0.165 node02.nurlan.kz
+192.168.0.166 infra01.nurlan.kz
+192.168.0.167 infra02.nurlan.kz```
