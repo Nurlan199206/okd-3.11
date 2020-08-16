@@ -42,4 +42,4 @@ infra02 - 3GB RAM, 2CPU
 192.168.0.164 node01.nurlan.kz
 192.168.0.165 node02.nurlan.kz
 192.168.0.166 infra01.nurlan.kz
-192.168.0.167 infra02.nurlan.kz```
+192.168.0.167 infra02.nurlan.kz
