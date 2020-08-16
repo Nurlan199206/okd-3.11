@@ -29,7 +29,7 @@ infra02 - 3GB RAM, 2CPU
 ``` ansible-playbook /usr/share/ansible/openshift-ansible/playbooks/deploy_cluster.yml -i /root/ocp-admin/inventory/hosts -e openshift_disable_check=memory_availability```
 
 На всех нодах кластера в ```/etc/hosts``` прописываем записи ниже, либо настраиваем локальный DNS сервер.
-
+------------------------------------------------------------------------------------
 
 ```192.168.0.160 openshift-cluster.nurlan.kz
 192.168.0.160 openshift-internal.nurlan.kz
