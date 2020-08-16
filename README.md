@@ -2,14 +2,14 @@
 
 Параметры Хостов
 
-lb - 2.5GB RAM, 2CPU |Ansible|HAProxy LB|OKD Playbooks
+```lb - 2.5GB RAM, 2CPU |Ansible|HAProxy LB|OKD Playbooks
 master01 - 6GB RAM, 2CPU
 master02 - 4GB RAM, 2CPU
 master03 - 4GB RAM, 2CPU
 node01 - 4GB RAM, 2CPU
 node02 - 4GB RAM, 2CPU
 infra01 - 3GB RAM, 2CPU
-infra02 - 3GB RAM, 2CPU
+infra02 - 3GB RAM, 2CPU```
 
 
 ansible 2.9.10
