@@ -20,5 +20,5 @@ ansible 2.9.10
   python version = 2.7.5 (default, Apr  2 2020, 13:16:51) [GCC 4.8.5 20150623 (Red Hat 4.8.5-39)]
   
   
-```1. ansible-playbook /usr/share/ansible/openshift-ansible/playbooks/prerequisites.yml -i /root/ocp-admin/inventory/hosts```
-```2. ansible-playbook /usr/share/ansible/openshift-ansible/playbooks/deploy_cluster.yml -i /root/ocp-admin/inventory/hosts -e openshift_disable_check=memory_availability```
+* ansible-playbook /usr/share/ansible/openshift-ansible/playbooks/prerequisites.yml -i /root/ocp-admin/inventory/hosts
+* ansible-playbook /usr/share/ansible/openshift-ansible/playbooks/deploy_cluster.yml -i /root/ocp-admin/inventory/hosts -e openshift_disable_check=memory_availability
