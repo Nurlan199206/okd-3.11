@@ -30,7 +30,8 @@ infra02 - 3GB RAM, 2CPU
 
 Версия Ансибла
 ------------------------------------------------------------------------------------
-```ansible 2.9.10
+```
+  ansible 2.9.10
   config file = /etc/ansible/ansible.cfg
   configured module search path = [u'/root/.ansible/plugins/modules', u'/usr/share/ansible/plugins/modules']
   ansible python module location = /usr/lib/python2.7/site-packages/ansible
