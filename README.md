@@ -47,7 +47,8 @@ infra02 - 3GB RAM, 2CPU
 На всех нодах кластера в ```/etc/hosts``` прописываем записи ниже, либо настраиваем локальный DNS сервер.
 ------------------------------------------------------------------------------------
 
-```192.168.0.160 openshift-cluster.nurlan.kz
+```
+192.168.0.160 openshift-cluster.nurlan.kz
 192.168.0.160 openshift-internal.nurlan.kz
 192.168.0.160 console.apps.nurlan.kz
 192.168.0.160 console.nurlan.kz
